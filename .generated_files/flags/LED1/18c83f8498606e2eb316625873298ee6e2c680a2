@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -fno-common -I"../src"  -Werror -Wall   -DXPRJ_LED1=$(CND_CONF)    $(COMPARISON_BUILD)   /home/ashoka/Desktop/LED_BLINK1.X/src/interrupts.c
